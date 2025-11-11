@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordomenters Magic School</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loading-screen">
+    <h1>✨ Ordomenters Magic School ✨</h1>
+  </div>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Ordomenters Magic School</h1>
+      <p>Di mana sihir dan takdir berpadu menjadi satu kekuatan abadi.</p>
+      <a href="#pendaftaran" class="btn-glow">Mulai Petualangan</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="#tentang">Tentang</a>
+    <a href="#jurusan">Jurusan</a>
+    <a href="#program">Program</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#pendaftaran">Pendaftaran</a>
+  </nav>
+
+  <section id="tentang" data-aos="fade-right">
+    <h2>Tentang Kami</h2>
+    <p>
+      Didirikan pada 19 Februari 2024, Ordomenters Magic School adalah sekolah sihir berbasis sistem RPG klasik yang melatih generasi baru penyihir suci dan penyihir kegelapan.
+    </p>
+  </section>
+
+  <section id="jurusan" data-aos="fade-left">
+    <h2>Jurusan</h2>
+    <div class="card">
+      <h3>Ordo Potestatis Puritatis</h3>
+      <p>Jalur para penyihir cahaya dan pelindung dunia sihir.</p>
+    </div>
+    <div class="card">
+      <h3>Ordo Potestatis Tenebratum</h3>
+      <p>Jalur para penyihir bayangan, pengendali kekuatan gelap.</p>
+    </div>
+  </section>
+
+  <section id="program" data-aos="fade-up">
+    <h2>Program</h2>
+    <ul>
+      <li>✨ Basic Magic Knowledge</li>
+      <li>⚗️ Clan Specialization</li>
+      <li>🗺️ Adventure & Weekly Event</li>
+      <li>📜 Sertifikasi Magis</li>
+    </ul>
+  </section>
+
+  <section id="galeri" data-aos="zoom-in">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=800&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80" alt="">
+    </div>
+  </section>
+
+  <section id="pendaftaran" data-aos="fade-up">
+    <h2>Pendaftaran</h2>
+    <form action="https://formspree.io/f/xkgknrvk" method="POST">
+      <input type="text" name="nama" placeholder="Nama Lengkap" required>
+      <select name="jurusan" required>
+        <option value="">Pilih Jurusan</option>
+        <option value="Suci">Orpopun - Suci</option>
+        <option value="Kegelapan">Orpoten - Kegelapan</option>
+      </select>
+      <button type="submit" class="btn-glow">Daftar Sekarang</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Ordomenters Magic School — Crafted with ✨ Magic</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
